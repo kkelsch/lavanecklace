@@ -21,28 +21,26 @@ int ledMode = 3;
 
 const TProgmemPalette16 Custom_Colors PROGMEM =
 {
-  CRGB::Purple,
-  CRGB::Purple, 
-  CRGB::MidnightBlue,
-  CRGB::MidnightBlue,
+  CRGB::DarkGoldenrod,
+  CRGB::DarkGoldenrod, 
+  CRGB::Red,
+  CRGB::Red,
 
   CRGB::Purple,
   CRGB::Purple,
-  CRGB::BlueViolet,
-  CRGB::BlueViolet,
+  CRGB::DarkRed,
+  CRGB::DarkRed,
 
-  CRGB::DarkTurquoise,
-  CRGB::DarkTurquoise,
-  CRGB::DarkBlue,
-  CRGB::DarkBlue,
+  CRGB::DarkOrange,
+  CRGB::DarkOrange,
+  CRGB::DarkMagenta,
+  CRGB::DarkMagenta,
 
-  CRGB::Purple,
-  CRGB::Purple,
-  CRGB::BlueViolet,
-  CRGB::BlueViolet
+  CRGB::Red,
+  CRGB::Red,
+  CRGB::Orange,
+  CRGB::Orange
 };
-
-
 
 
 void setup() {
